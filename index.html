@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Type Kana - CAMNX</title>
+
+	<!-- Loading Bootstrap -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+	<!-- Loading Flat UI -->
+	<link href="css/flat-ui.css" rel="stylesheet">
+
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style-v1.css">
+</head>
+
+<body>
+	<div class='main-container'>
+		<h2 class='title'>Type Kana</h2>
+		<div class='main-content hidden'>
+			<div class='romaji' style="text-align: center;">
+				<span id="tool-tip">Tooltip</span>
+			</div>
+			<div class='kana'>
+				<div class='kana-container'></div>
+			</div>
+			<div class='romaji'>
+				<div class='romaji-container'></div>
+			</div>
+		</div>
+		<div class="buttons buttons-score hidden">
+			<a class="btn btn-huge btn-info btn-embossed mlm">
+				<span class="fui-time"></span> &nbsp; <span class='time'>0:00</span>
+			</a>
+			<!--
+ 			<a class="btn btn-huge btn-info btn-embossed mlm">
+ 				<span class='fui-pause'></span>
+			</a>-->
+			<a class="btn btn-huge btn-info btn-embossed mlm">
+				<span class='fui-checkbox-checked'></span> &nbsp; <span class='score'>0 / 100</span>
+			</a>
+		</div>
+		<div class="buttons buttons-start">
+			<label class="radio primary">
+				<input type="radio" name="kana" id="hiragana" value="hiragana" data-toggle="radio" checked="checked">
+				Hiragana
+			</label>
+			<label class="radio primary">
+				<input type="radio" name="kana" id="katakana" value="katakana" data-toggle="radio">
+				Katakana
+			</label>
+			<a class="btn btn-huge btn-info btn-embossed mlm btn-start">
+				<span class='start'>Start</span>
+				<span class="fui-arrow-right"></span>
+			</a>
+		</div>
+	</div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="js/flatui-radio.js"></script>
+	<script type="module" src="js/constant.js"></script>
+	<script type="module" src="js/main-type.js"></script>
+	<script>
+		
+	</script>
+</body>
+
+</html>

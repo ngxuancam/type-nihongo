@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5eeb3;
+}
+
+.main-container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -80px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #132417;
+  text-align: center;
+  font-weight: 100;
+}
+
+.kana {
+  height: 100px;
+  overflow: hidden;
+  background: #47739e;
+}
+
+.kana-container {
+  margin-left: calc(50% - 27px);
+  font-size: 60px;
+  padding-top: 15px;
+  width: 99999px;
+  color: #ecf0f1;
+}
+
+.green {
+  color: #2ecc71;
+  cursor: pointer;
+}
+
+.red {
+  color: #e74c3c;
+  cursor: pointer;
+}
+
+.romaji {
+  height: 40px;
+  background: #34495e;
+}
+
+.romaji-container {
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: 100;
+}
+
+.romaji-container:focus {
+  outline: none;
+}
+
+.buttons {
+  margin: 25px 20px;
+  text-align: center;
+}
+
+.buttons a {
+  font-weight: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-start {
+  padding-right: 8px !important;
+  margin-top: -8px;
+}
+
+label {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 24px;
+}
+
+.radio .icons .first-icon,
+.radio .icons .second-icon {
+  background: transparent;
+}
+
+.radio.primary.checked {
+  color: #9034db;
+}
+
+.radio.checked .second-icon {
+  color: #9034db;
+}
+
+#tool-tip {
+  color: white;
+  height: 100px;
+  overflow: hidden;
+  width: 100%;
+  font-size: 2rem;
+  visibility: hidden;
+}
